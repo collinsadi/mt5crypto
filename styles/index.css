@@ -276,6 +276,8 @@ header{
 
 /* Styling for everything related to the main header Ends here */
 
+/* Styling for evrything abouth the video background hero section starts here */
+
 section.hero{
 
     width: 100%;
@@ -356,6 +358,12 @@ position: relative;
     border-radius: 20px;
     margin-top: 20px;
 }
+
+
+/* Styling for evrything abouth the video background hero section ends here */
+
+
+/* Styling for the second section with 3 tabs start here */
 
 .second-section{
 
@@ -605,4 +613,64 @@ font-weight: bold;
 
     width: 100%;
   }
+}
+
+
+/* Styling for the second section with 3 tabs end here */
+
+
+.third-section{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.third-section-inner{
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.third-section-left, .third-section-right{
+
+    width: 50%;
+}
+.third-section-right video{
+
+    max-width: 100%;
+}
+
+.third-section-left h1{
+
+    font-size: 50px;
+    font-weight: bold;
+}
+.third-section-left p{
+
+    font-size: 20px;
+
+}
+
+.third-section-left span{
+
+    font-weight: bolder;
+}
+.third-section-left a{
+
+         
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #13C636;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+
 }
