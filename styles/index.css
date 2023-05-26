@@ -619,6 +619,8 @@ font-weight: bold;
 /* Styling for the second section with 3 tabs end here */
 
 
+/* Styling for the third section starts herer */
+
 .third-section{
 
     width: 100%;
@@ -673,4 +675,132 @@ font-weight: bold;
     margin-top: 20px;
     margin-right: 5px;
 
+}
+
+/* Styling for the third section ends here */
+
+/* Stying for the fourth section starts here */
+
+.fourth-section{
+
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #010021;
+}
+
+.fourth-section-inner{
+
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.fourth-section-left{
+
+    width: 50%;
+}
+.fourth-section-left video{
+
+    max-width: 100%;
+}
+
+.fourth-section-right{
+
+    width: 50%;
+    color: white;
+    padding-left: 15px;
+}
+.fourth-section-right h1{
+
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.fourth-section-right p{
+
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.fourth-section-right p:last-child{
+
+    color: #484855;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.fourth-section-right a{
+
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #13C636;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+
+}
+
+.fourth-section-right span{
+
+    font-weight: bold;
+}
+
+/* Stying for the fourth section ends here */
+
+.fifth-section{
+
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fifth-section-inner{
+
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fifth-section-right{
+
+    width: 50%;
+}
+.fifth-section-right video{
+
+    max-width: 100%;
+}
+.fifth-section-left{
+
+    width: 50%;
+}
+
+.fifth-section-left h1{
+
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.fifth-section-left p{
+
+    font-size: 20px;
+    color: black;
+}
+
+.fifth-section-left span{
+
+    font-weight: bold;
 }
